@@ -61,16 +61,3 @@ carbs = (tdee - (protein*4 + fat*9)) / 4
 st.write(f"Protein: {protein:.0f}g | Fat: {fat:.0f}g | Carbs: {carbs:.0f}g")
 st.markdown("---")
 st.markdown("Coach yazan | Your Wellness, Our Priority!")
-import streamlit as st
-
-st.set_page_config(
-    page_title="Fitness Tracker",
-    page_icon="💪",
-    layout="wide"
-)
-
-st.image("thumbnail.png", use_container_width=True)
-
-st.title("💪 Fitness Tracker")
-st.write("Track your workouts and progress easily!")
-
